@@ -1,6 +1,6 @@
 export default {
     port: 1337,
-    dbUri: "mongodb://localhost:27017/rest-api-tutorial",
+    dbUri: "postgresql://alex:alex@localhost:5432/cloud",
     saltWorkFactor: 10, //how many times to salt the password 
     accessTokenTtl: "15m",
     refreshTokenTtl: "1y",
